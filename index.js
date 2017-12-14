@@ -11,5 +11,10 @@ function produceDrivingRange(range){
       return `within range by ${Math.abs(difference)}`
     }
   }
-  
+}
+
+function produceTipCalculator(tip){
+  return function tip(fare){
+    return fare * tip
+  }
 }
