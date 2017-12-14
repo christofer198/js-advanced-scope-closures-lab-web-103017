@@ -6,7 +6,7 @@ function produceDrivingRange(range){
     let difference = delta-range
 
     if(difference > 0){
-      return true
+      return `${difference} blocks out of range`
     } else {
       return false
     }
